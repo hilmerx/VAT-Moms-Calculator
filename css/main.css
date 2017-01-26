@@ -1,0 +1,150 @@
+html, body{
+background:#A6CFE2;
+margin:0;
+}
+
+/*behövs för att skapa en ram att centrera i*/
+#container{
+  height:100vh;
+  width:100vw;
+  font-family: times;
+
+}
+/*diven som centreras vertikalt innuti container*/
+#centerthis{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /*background: red;*/
+  font-size: 40px;
+  color:#0B0C11;  
+}
+
+.textf {
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: 0;
+    border-bottom: 5px solid;
+    border-color: #FFCC4C;
+        text-align: center;
+
+    outline:none;
+    /*height:0.2em;*/
+    font-family: 'myFirstFont';
+    font-size:1em;
+    width:300px;
+    color: #0B0C11;
+    /*box-shadow: 0 0 0 #FFCC4C;*/
+
+
+/*    transition:height 1s;
+    -webkit-transition:height 1s;
+*/
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+}
+.textf:focus {
+    /*height:50px;*/
+    /*font-size:1em;*/
+    /*font-size:16px;*/
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+
+}
+::selection {
+  background: #A6CFE2; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #A6CFE2; /* Gecko Browsers */
+}
+
+.button1 {
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: 0;
+    border-bottom: 5px solid;
+    border-color: #ddd;
+    /*border-color: #FFCC4C;*/
+
+        text-align: center;
+
+    outline:none;
+    font-family: times;
+    font-size:1em;
+    width:20;
+    color: #0B0C11;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+}
+.button2 {
+    background-color:rgba(0, 0, 0, 0);
+    color:white;
+    border: 0;
+    border-bottom: 5px solid;
+    border-color: #FFCC4C;
+    /*border-color: #FFCC4C;*/
+
+        text-align: center;
+
+    outline:none;
+    font-family: times;
+    font-size:0.7em;
+    width:20;
+    color: #0B0C11;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari*/
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+}
+#buttons{
+  position: relative;
+  display: inline-block;
+  /*top: -0vh;*/
+  /*left: 75vw;*/
+  /*min-*/
+  background: red;
+    text-align: center;
+  /*position: relative;*/
+  /*top: 0%;*/
+  
+  /*right: 10%;*/
+  /*transform: translateY(-50%);*/
+
+  font-size: 40px;
+  color:#0B0C11;  
+  width:300px;
+  height: 0px;
+
+}
+
+
